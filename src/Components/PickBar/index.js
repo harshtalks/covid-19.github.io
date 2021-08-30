@@ -28,6 +28,7 @@ const PickBar = ({setSearch}) => {
         <select placeholder = "Country" value = {value} onChange = {(e) => {
             setvalue(e.target.value)
         }}>
+            <option></option>
             {name.map(el => {
                 return (
                     <option key= {Math.random()*100000}>{el}</option>
