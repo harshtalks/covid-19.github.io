@@ -37,6 +37,13 @@ const CountryWise = () => {
                    />
                </form>
            </div>
+
+           {
+               country.length == 0 &&
+               <Content>
+                   <CountryCard  title = 'Please Enter Country Name. Remember It should start with a capital letter' />
+               </Content>
+           }
            {
                select && (country.length > 0) &&
                <>
@@ -77,13 +84,14 @@ const CountryWise = () => {
             < CountryCard title = 'today deaths' 
             stats = {formatNumbers(country[0].todayDeaths)}
             />
-            
            </Content>
            
            
            </>
        
            }
+
+           
         </Wrapper>
         </Container>
     )
