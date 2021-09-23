@@ -31,9 +31,9 @@ background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
             cursor: pointer;
             transition: all .25s ease-in;
             
-            &:hover,&:active{
+            :hover{
                 background-position: center right;
-                transform: translateY(-10px);
+                transform: scale(1.1);
             }
             
         }

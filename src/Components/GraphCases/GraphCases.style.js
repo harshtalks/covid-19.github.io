@@ -41,9 +41,14 @@ export const Content = styled.div`
     }
 
 
+
+
+
     @media (max-width: 768px){
       div{
           flex-direction: column;
       }
+
+     
     }
 `

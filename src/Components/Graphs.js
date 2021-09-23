@@ -19,7 +19,6 @@ const Graphs = () => {
     
     return (
        <div>
-        
        <Graph countries = {countries} setSearch = {setSearch} />
        <div style = {{
            margin: '4em' ,

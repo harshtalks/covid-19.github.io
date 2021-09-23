@@ -65,7 +65,9 @@ const Graph = ({countries, setSearch}) => {
                     </div>
                     <PickBar setSearch = {setSearch}/>
                </div>
-                <canvas id="LineChart" ></canvas>
+                
+        <canvas id="LineChart"></canvas>
+   
             </Content>
             
         </Container>
